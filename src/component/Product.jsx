@@ -18,7 +18,7 @@ const Product = ({ giay, setGiay, doiGiay }) => {
           DETAIL
         </button>
         <Modals show={modalShow} doiGiay={doiGiay} onHide={() => setModalShow(false)} />
-        <button className="button-50">BUY NOW</button>
+        <button className="button-50">QUICK ADD</button>
       </div>
     </div>
   );

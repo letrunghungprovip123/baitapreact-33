@@ -22,8 +22,7 @@ export default function Modals(props) {
           <div className="col-lg-6">
             <h4 className="mb-5">Shoe Detail</h4>
             <table className="table">
-              <thead>
-              </thead>
+              <thead></thead>
               <tbody>
                 <tr>
                   <th scope="row">ID:</th>
@@ -49,13 +48,13 @@ export default function Modals(props) {
                   <th scope="row">Description:</th>
                   <td>{props.doiGiay.description}</td>
                 </tr>
-
               </tbody>
             </table>
           </div>
         </div>
       </Modal.Body>
       <Modal.Footer>
+        <Button variant="dark">Buy Now</Button>
         <Button onClick={props.onHide}>Close</Button>
       </Modal.Footer>
     </Modal>
